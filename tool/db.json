@@ -1,0 +1,72 @@
+{
+    "columnDefs": [
+        {
+            "headerName": "sl no",
+            "field": "sl no",
+            "headerComponent": "CheckBoxOutlineBlankIcon",
+            "sortable": true,
+            "filter": true,
+            "maxWidth": "60"
+        },
+        {
+            "headerName": "Trust Group",
+            "field": "Trust Group",
+            "sortable": true,
+            "filter": true,
+            "maxWidth": "150"
+        },
+        {
+            "headerName": "Can invite collaborators?",
+            "field": "Can_invite_collaborators",
+            "sortable": true,
+            "filter": true,
+            "cellRenderer": "DoneIcon",
+            "headerComponentParams": {
+                "menuIcon": "DoneIcon"
+            }
+        },
+        {
+            "headerName": "Can enable invite links?",
+            "field": "Can enable invite links?",
+            "sortable": true,
+            "filter": true,
+            "cellRenderer": "DoneIcon"
+        },
+        {
+            "headerName": "Can enable group invites?",
+            "field": "Can enable group invites?",
+            "sortable": true,
+            "filter": true,
+            "cellRenderer": "DoneIcon"
+        },
+        {
+            "headerName": "Can transfer ownership of files?",
+            "field": "Can transfer ownership of files?",
+            "sortable": true,
+            "filter": true,
+            "cellRenderer": "DoneIcon"
+        }
+    ],
+    "rowData": [
+        {
+            "sl no": "1",
+            "Trust Group": "DO NOT TRUST",
+            "Can_invite_collaborators": true,
+            "Can enable invite links?": false,
+            "Can enable group invites?": false,
+            "Can transfer ownership of files?": true
+        },
+        {
+            "Trust Group": "Top 100",
+            "sl no": "2"
+        },
+        {
+            "Trust Group": "Top 10000",
+            "sl no": "3"
+        },
+        {
+            "Trust Group": "Top 30000",
+            "sl no": "4"
+        }
+    ]
+}
